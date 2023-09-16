@@ -6,6 +6,7 @@ SetKeyDelay 40 ; not actually used except when using SendRaw/Event
 SetMouseDelay 40
 SetTitleMatchMode "RegEx"
 
+
 ^!t::
 {
     MouseGetPos &mouseX, &mouseY
@@ -14,3 +15,20 @@ SetTitleMatchMode "RegEx"
         sleep 10
     }
 }
+
+
+
+; Hotstrings for HR chars on US kb
+:?*:s"::š
+:?*:s'::š
+:?*:d'::đ
+:?*:d"::đ
+:?*:c"::č
+:?*:c'::ć
+:?*:z"::ž
+:?*:z'::ž
+
+
+#!.::Reload
+#!,::Edit
+
