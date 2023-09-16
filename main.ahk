@@ -28,6 +28,19 @@ SetTitleMatchMode "RegEx"
 :?*:z"::ž
 :?*:z'::ž
 
+; Alternate hotkeys for HR chars, karabiner-like
+^[::š
+^]::đ
+^;::č
+^'::ć
+^\::ž
+
+^+[::Š
+^+]::Đ
+^+;::Č
+^+'::Ć
+^+\::Ž
+
 
 #!.::Reload
 #!,::Edit
